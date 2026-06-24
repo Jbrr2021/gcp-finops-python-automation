@@ -21,6 +21,12 @@ Enquanto o SQL atua processando grandes volumetrias de dados (*Big Data*) dentro
 
 *   `classificacao_alertas_custo_pandas_dataframe.py`: **Pedido do Gestor:** Implementar uma camada de inteligência e rotulagem de forma autônoma no Python antes da exportação. O script avalia a matriz tridimensional, cria a coluna de governança `status_orcamento` mapeando recursos acima de R$ 400.00 como `🔴 CRÍTICO` e os demais como `🟢 DENTRO DO ESPERADO`, entregando um relatório totalmente tratado para o Excel.
 
+### 🔍 4. Auditoria de Compliance e Validação Geográfica
+<img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/48b000dc-8390-4f90-8fac-06a74761392f" />
+
+
+*   `auditoria_regioes_cloud_pandas_startswith.py`: **Pedido do Gestor:** Validar a conformidade de localização dos recursos de infraestrutura. O script utiliza a função `.str.startswith()` do Pandas integrada a expressões Lambda para identificar programaticamente recursos alocados fora dos Estados Unidos, aplicando tags de atenção para o time de compliance e gerando planilhas tratadas com padrão de separador nacional brasileiro.
+
 
 ## 🧠 Evolução Profissional
 Dominar a integração de APIs do Google Cloud com engenharia estruturada em Python e Pandas consolida a minha capacidade técnica para construir pipelines eficientes de dados orientados a resultados de mercado.
